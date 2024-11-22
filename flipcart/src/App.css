@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(251, 255, 254);
+}
+.main{
+margin-left: 152px;
+}
+.smain{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+h3{
+  color: rgb(85, 4, 85);
+}
+.p1{
+  color: green;
+}
+.p2{
+  color: rgb(56, 54, 54);
+}
+.item{
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(233, 231, 231);
+  box-shadow: 0 0 2px 2px rgb(238, 236, 236);
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 100px;
+}
+img{
+  width: 100px;
+  height: 60px;
+}
+.image{
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.conte{
+  margin-left: 20px;
+}
