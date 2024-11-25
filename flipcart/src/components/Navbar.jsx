@@ -9,6 +9,7 @@ const Navbar = ({setSearch}) => {
           <div><Link to="/">Home</Link></div>
         <div><Link to="/about">About</Link></div>
           <div><Link to="/contact">Contact</Link></div>
+          <Link to="/cart" style={{color:"red"}}>Cart ({cartCount})</Link>
           <input type="search" placeholder='Search Here' onChange={(e)=>setSearch(e.target.value)}/>
         </div>
       </div>
