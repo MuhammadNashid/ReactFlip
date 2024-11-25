@@ -28,10 +28,6 @@
     color: white;
     font-size: 1.2rem;
   }
-  
-  .navbar-links div a:hover {
-    color: #f39c12;
-  }
   input{
    margin-left: 30px;
    width: 300px;
@@ -41,4 +37,9 @@
   }
   .navbar-content{
     margin-left: 800px;
+  }
+  .link{
+    color: white;
+    text-decoration: 0;
+    font-size: 1.2rem;
   }
